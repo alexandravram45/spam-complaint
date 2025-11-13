@@ -19,18 +19,18 @@ This document describes the high-level architecture, main components, and data f
 ### 🗂️ High-Level Structure
 
 spam-complaint/
-├── cmd/ # Application entry point
-│ └── main.go
-├── internal/ # Internal reusable packages
-│ ├── parser/ # Email header parser
-│ ├── whois/ # WHOIS lookup logic
-│ ├── abusefinder/ # Finds abuse contacts from WHOIS data
-│ └── emailgen/ # Generates complaint emails from templates
-├── docs/ # Documentation (architecture, decisions, screenshots)
-├── tests/ # Unit tests for each module
-├── go.mod # Go module definition
-├── README.md # Project overview
-└── .gitignore
+├── cmd/ # Application entry point  
+│ └── main.go  
+├── internal/ # Internal reusable packages  
+│ ├── parser/ # Email header parser  
+│ ├── whois/ # WHOIS lookup logic  
+│ ├── abusefinder/ # Finds abuse contacts from WHOIS data  
+│ └── emailgen/ # Generates complaint emails from templates  
+├── docs/ # Documentation (architecture, decisions, screenshots)  
+├── tests/ # Unit tests for each module  
+├── go.mod # Go module definition  
+├── README.md # Project overview  
+└── .gitignore  
 
 ## 3. Component Responsibilities
 
