@@ -30,4 +30,4 @@ and generates professional complaint emails to help reduce spam at its source.
 
 ## 🧑‍💻 How to Run
 ```bash
-go run main.go
+go run ./cmd
